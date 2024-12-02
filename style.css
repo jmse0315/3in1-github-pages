@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/img/hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: rgb(37, 23, 23);
+}
+
+.heading1 {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 40px 20px;
+    font-size: 40px;
+    color: rgb(37, 33, 33);
+}
+
+.heading1 h1 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+    text-align: left;
+    margin: 20px;
+    font-size: 16px;
+    color: rgb(37, 23, 23);
+}
+
+p a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.login-container {
+
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(37, 23, 23);
+    text-align: center;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.login-container input,
+.login-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4aad4e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.Login-container1 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.Login-container1 label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Login-container1 input,
+.Login-container1 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.Login-container1 textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.Login-container1 p {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.Login-container1 p a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Login-container1 p a:hover {
+    text-decoration: underline;
+}
